@@ -470,6 +470,9 @@ a{ text-decoration:none;}
 /* 手机端css */
 
 @media screen and (max-width: 750px) {
+	html{
+		overflow-x: hidden;
+	}
 	body{
 		overflow-x: hidden;
 	}

@@ -225,7 +225,7 @@
 					</div>
 				</div>
 				<div class="r">
-					<p class="t">STAY IN TOUCH</p>
+					<p class="t phone_none">STAY IN TOUCH</p>
 					<div class="email">
 						<p class="p1">EMAIL US</p>
 						<p>ics@pinjamplus.com</p>
@@ -296,13 +296,16 @@
 					$('html').css({ "height": 'unset',"overflowY": 'scroll !important'});
 					
 				})
+				
 				$(".phone_menu_button li").click(function(){
 					var className = $(this).attr('class');
 					if(className == 'to'){
 						$(".phone_menu").css({right: '-7.5rem'});
-
 						$('body').css({ "height": 'unset',"overflowY": 'scroll !important'});
 						$('html').css({ "height": 'unset',"overflowY": 'scroll !important'});
+						var index = jQuery(this).children().attr("href");
+						$("html,body").animate({scrollTop: $(index).offset().top-76}, 400);
+						return false;
 					}else{
 
 					}

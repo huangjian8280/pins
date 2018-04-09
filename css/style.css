@@ -472,10 +472,12 @@ a{ text-decoration:none;}
 @media screen and (max-width: 750px) {
 	html{
 		overflow-x: hidden;
+		position: relative;
 		
 	}
 	body{
 		overflow-x: hidden;
+		position: relative;
 	}
 	.phone_menu{
 		position: absolute;

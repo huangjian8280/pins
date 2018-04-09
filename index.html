@@ -287,13 +287,13 @@
 				$(".phone_icon").click(function(){
 					$(".phone_menu").css({height: WIN_HEIGHT+'px',right: '0'});
 					$('body').css({overflowY: 'hidden'});
-					$('html').css({overflow: 'hidden'});
+					$('html').css({overflowY: 'hidden'});
 					
 				})
 				$(".phone_menu_head i").click(function(){
 					$(".phone_menu").css({right: '-7.5rem'});
-					$('body').css({overflowY: 'auto'});
-					$('html').css({overflow: 'auto'});
+					$('body').css({overflowY: 'scroll !important'});
+					$('html').css({overflowY: 'scroll !important'});
 					
 				})
 				$(".phone_menu_button li").click(function(){
@@ -301,8 +301,8 @@
 					if(className == 'to'){
 						$(".phone_menu").css({right: '-7.5rem'});
 						$(".phone_menu").css({right: '-7.5rem'});
-						$('body').css({overflowY: 'auto'});
-						$('html').css({overflow: 'auto'});
+						$('body').css({overflowY: 'scroll !important'});
+						$('html').css({overflow: 'scroll !important'});
 					}else{
 
 					}

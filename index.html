@@ -287,10 +287,13 @@
 				$(".phone_icon").click(function(){
 					$(".phone_menu").css({height: WIN_HEIGHT+'px',right: '0'});
 					$('body').css({overflowY: 'hidden'});
+					$('html').css({overflowY: 'hidden'});
+					
 				})
 				$(".phone_menu_head i").click(function(){
 					$(".phone_menu").css({right: '-7.5rem'});
 					$('body').css({overflowY: 'auto'});
+					$('html').css({overflowY: 'auto'});
 					
 				})
 				$(".phone_menu_button li").click(function(){
@@ -299,6 +302,7 @@
 						$(".phone_menu").css({right: '-7.5rem'});
 						$(".phone_menu").css({right: '-7.5rem'});
 						$('body').css({overflowY: 'auto'});
+						$('html').css({overflowY: 'auto'});
 					}else{
 
 					}

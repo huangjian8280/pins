@@ -473,11 +473,13 @@ a{ text-decoration:none;}
 	html{
 		overflow-x: hidden;
 		position: relative;
+		height: 100% !important;
 		
 	}
 	body{
 		overflow-x: hidden;
 		position: relative;
+		height: 100% !important;
 	}
 	.phone_menu{
 		position: absolute;

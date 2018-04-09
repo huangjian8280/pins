@@ -292,16 +292,17 @@
 				})
 				$(".phone_menu_head i").click(function(){
 					$(".phone_menu").css({right: '-7.5rem'});
-					$('body').css({overflowY: 'scroll !important'});
-					$('html').css({overflowY: 'scroll !important'});
+					$('body').css({ "height": 'unset',"overflowY": 'scroll !important'});
+					$('html').css({ "height": 'unset',"overflowY": 'scroll !important'});
+					
 				})
 				$(".phone_menu_button li").click(function(){
 					var className = $(this).attr('class');
 					if(className == 'to'){
 						$(".phone_menu").css({right: '-7.5rem'});
-						$(".phone_menu").css({right: '-7.5rem'});
-						$('body').css({overflowY: 'scroll !important'});
-						$('html').css({overflow: 'scroll !important'});
+
+						$('body').css({ "height": 'unset',"overflowY": 'scroll !important'});
+						$('html').css({ "height": 'unset',"overflowY": 'scroll !important'});
 					}else{
 
 					}
